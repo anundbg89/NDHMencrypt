@@ -99,5 +99,8 @@ const runExample = ({ stringToEncrypt,requesterData }) => {
 };
 
 
+		runExample( {stringToEncrypt: '{"data": "There is no war in Ba Sing Se!"}', requesterData: '{"nonce" : "mRTKi3jFnS7/HET9iKnrn0PkKf677ka16nyX+/5l8sc=","publicKey" : "BDb0S6+PsekYnhXars8ZlOpdHePGpPOBWkCqIBSws0I7d4OVNQpogxJN1p57sXWcYAv+m9zxkAdGttMP8geaIjA=" }' });
 
-runExample( {stringToEncrypt: '{"data": "There is no war in Ba Sing Se!"}', requesterData: '{"nonce" : "mRTKi3jFnS7/HET9iKnrn0PkKf677ka16nyX+/5l8sc=","publicKey" : "BDb0S6+PsekYnhXars8ZlOpdHePGpPOBWkCqIBSws0I7d4OVNQpogxJN1p57sXWcYAv+m9zxkAdGttMP8geaIjA=" }' });
+
+
+
