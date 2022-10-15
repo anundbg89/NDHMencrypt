@@ -17,7 +17,7 @@ app.use(function (req, res, next) {
   var http = require("http")
   var express = require("express")
   var app = express()
-  var port = process.env.PORT || 7000
+  var port = process.env.PORT || 5000
   var bodyParser = require('body-parser')
   app.use(bodyParser.json());
   var server = http.createServer(app)
